@@ -18,4 +18,13 @@ public class Movie {
         return starred;
     }
 
+    @Override
+    public String toString() {
+        return "Movie [rate=" + rate + ", starred=" + starred + ", title=" + title + "]";
+    }
+
+    public Double getRate() {
+        return rate;
+    }
+
 }

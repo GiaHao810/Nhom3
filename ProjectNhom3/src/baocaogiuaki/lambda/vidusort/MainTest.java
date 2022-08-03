@@ -22,6 +22,8 @@ public class MainTest {
             }
         });
 
-        movies.forEach(System.out::println);;
+        for (Movie movie : movies) {
+            System.out.println(movie.toString());
+        }
     }
 }
