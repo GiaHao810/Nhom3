@@ -17,4 +17,6 @@ public class MethodLocalInner {
         LocalInnerClass innerClass = new LocalInnerClass();
         innerClass.print();
     }
+
+    
 }
